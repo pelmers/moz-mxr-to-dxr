@@ -5,5 +5,26 @@
   "description": "Change MXR to DXR.",
   "author": "Peter Elmers",
   "license": "MPL 2.0",
-  "version": "0.1"
+  "version": "0.1",
+  "preferences": [{
+      "name": "rewriteAnchors",
+      "description": "Rewrite all MXR links to DXR.",
+      "value": true,
+      "type": "bool",
+      "title": "Rewrite links"
+  },
+  {
+      "name": "useStaging",
+      "description": "Use the staging server.",
+      "value": false,
+      "type": "bool",
+      "title": "allizom ftw?"
+  },
+  {
+      "name": "hotkey",
+      "title": "Toggle key",
+      "description": "Key to toggle MXR and DXR",
+      "type": "string",
+      "value": "accel-shift-m"
+  }]
 }
