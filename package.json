@@ -5,7 +5,7 @@
   "description": "Change MXR to DXR.",
   "author": "Peter Elmers",
   "license": "MPL 2.0",
-  "version": "0.1",
+  "version": "0.2",
   "preferences": [{
       "name": "rewriteAnchors",
       "description": "Rewrite all MXR links to DXR.",
